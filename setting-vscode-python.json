@@ -1,0 +1,62 @@
+{
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "keyword.other.dotenv",
+                "settings": {
+                    "foreground": "#FF000000"
+                }
+            }
+        ]
+    },
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.runInTerminal": true,
+    "terminal.integrated.fontFamily": "Fira Code Light",
+    "terminal.integrated.fontSize": 15,
+    "editor.fontFamily": "Fira Code Light",
+    "debug.console.fontFamily": "Fira Code Light",
+    "debug.console.fontSize": 15,
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "editor.quickSuggestionsDelay": 1,
+    "editor.tabCompletion": "on",
+    "editor.wordBasedSuggestions": true,
+    "editor.parameterHints.enabled": true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    //end
+    "autoimport.autoComplete": true,
+    "autoimport.filesToScan": "**/*.{ts,tsx,js,jsx}",
+    "autoimport.useSemiColon": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.formatOnType": true
+    },
+    "editor.formatOnSave": true,
+    "indentRainbow.colors": [
+        "rgba(240, 128, 128,0.15)",
+        "rgba(244, 151, 142,0.15)",
+        "rgba(248, 173, 157, 0.15)",
+        "rgba(251, 196, 171,0.15)",
+        "rgba(255, 218, 185,0.15)",
+        "rgba(255, 218, 185,0.1)",
+        "rgba(255, 218, 185,0.05)",
+        "rgba(255, 218, 185,0.025)"
+    ],
+    "python.formatting.autopep8Args": [
+        "--max-line-length",
+        "120",
+        "--experimental"
+    ],
+    "python.formatting.yapfArgs": [
+        "--style",
+        "{based_on_style: chromium, indent_width: 2}"
+    ],
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "100"
+    ]
+}
