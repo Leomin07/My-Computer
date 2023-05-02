@@ -176,4 +176,5 @@
     /*
     */
     // "editor.snippetSuggestions": "inline",
+     "terminal.integrated.splitCwd": "workspaceRoot"
 }
