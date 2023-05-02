@@ -58,5 +58,6 @@
     "python.formatting.blackArgs": [
         "--line-length",
         "100"
-    ]
+    ],
+     "terminal.integrated.splitCwd": "workspaceRoot"
 }
