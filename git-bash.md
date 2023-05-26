@@ -6,7 +6,13 @@
 C:\Users\Admin\AppData\Roaming\npm\nest
 ```
 
-### 2. Add path cookieCutter
+### 2. Install And add path CookieCutter
+
+- Install
+
+```
+pip install cookiecutter
+```
 
 - Add path environment variable
 
