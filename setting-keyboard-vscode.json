@@ -142,7 +142,7 @@
         "command": "workbench.action.findInFiles"
     },
     {
-        "key": "ctrl+space",
+        "key": "ctrl+i",
         "command": "editor.action.sourceAction",
         "args": {
             "kind": "source.addMissingImports",
@@ -165,6 +165,16 @@
     {
         "key": "home",
         "command": "-cursorHome",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+insert",
+        "command": "cursorHomeSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+home",
+        "command": "-cursorHomeSelect",
         "when": "textInputFocus"
     },
 ]
