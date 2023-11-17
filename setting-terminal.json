@@ -1,11 +1,9 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema-preview",
-    "actions": 
-    [
+    "actions": [
         {
-            "command": 
-            {
+            "command": {
                 "action": "copy",
                 "singleLine": false
             },
@@ -20,8 +18,7 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -31,19 +28,28 @@
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
-    "initialCols": 110,
-    "newTabMenu": 
-    [
+    "defaultProfile": "{127c79f7-f4f8-4346-a9fa-e8412be0dcdf}",
+    "initialCols": 90,
+    "initialRows": 25,
+    "newTabMenu": [
         {
             "type": "remainingProfiles"
         }
     ],
-    "profiles": 
-    {
-        "defaults": {},
-        "list": 
-        [
+    "profiles": {
+        "defaults": {
+            "colorScheme": "Dracula",
+            "commandline": "C:\\Program Files\\Git\\bin\\bash.exe",
+            "elevate": true,
+            "font": {
+                "face": "FiraCode Nerd Font"
+            },
+            "hidden": false,
+            "name": "Git Bash",
+            "startingDirectory": "%USERPROFILE%",
+            "tabTitle": "Git Bash"
+        },
+        "list": [
             {
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -57,27 +63,21 @@
                 "name": "Command Prompt"
             },
             {
-                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "hidden": false,
-                "name": "Azure Cloud Shell",
-                "source": "Windows.Terminal.Azure"
-            },
-            {
-                "colorScheme": "Dracula",
-                "font": 
-                {
-                    "face": "FiraCode Nerd Font",
-                    "size": 10.0
+                "commandline": "C:\\Program Files\\Git\\bin\\bash.exe",
+                "elevate": true,
+                "font": {
+                    "face": "FiraCode Nerd Font"
                 },
-                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "guid": "{127c79f7-f4f8-4346-a9fa-e8412be0dcdf}",
                 "hidden": false,
+                "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
                 "name": "Git Bash",
-                "source": "Git"
+                "startingDirectory": "%USERPROFILE%",
+                "tabTitle": "Git Bash"
             }
         ]
     },
-    "schemes": 
-    [
+    "schemes": [
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
