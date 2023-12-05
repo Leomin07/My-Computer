@@ -42,7 +42,8 @@
             "commandline": "C:\\Program Files\\Git\\bin\\bash.exe",
             "elevate": true,
             "font": {
-                "face": "FiraCode Nerd Font"
+                "face": "JetBrains Mono",
+                "size": 11.0
             },
             "hidden": false,
             "name": "Git Bash",
@@ -66,7 +67,8 @@
                 "commandline": "C:\\Program Files\\Git\\bin\\bash.exe",
                 "elevate": true,
                 "font": {
-                    "face": "FiraCode Nerd Font"
+                    "face": "JetBrains Mono",
+                    "size": 11.0
                 },
                 "guid": "{127c79f7-f4f8-4346-a9fa-e8412be0dcdf}",
                 "hidden": false,
