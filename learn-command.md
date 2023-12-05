@@ -1,0 +1,40 @@
+- Các lệnh command cơ bản là những lệnh được sử dụng thường xuyên trong hệ điều hành Linux và Unix. Các lệnh này cho phép bạn quản lý hệ thống, thực thi các tác vụ, và truy cập dữ liệu.
+
+- Dưới đây là một số lệnh command cơ bản:
+
+  - cd: Thay đổi thư mục làm việc hiện tại.
+  - ls: Liệt kê các tệp và thư mục trong thư mục hiện tại.
+  - pwd: Hiển thị đường dẫn thư mục làm việc hiện tại.
+  - mkdir: Tạo thư mục mới.
+  - rmdir: Xóa thư mục rỗng.
+  - cp: Sao chép tệp hoặc thư mục.
+  - mv: Di chuyển hoặc đổi tên tệp hoặc thư mục.
+  - rm: Xóa tệp hoặc thư mục.
+  - touch: Tạo tệp mới.
+  - cat: Xem nội dung của tệp.
+  - head: Xem đầu của tệp.
+  - tail: Xem cuối của tệp.
+  - grep: Tìm kiếm văn bản trong tệp.
+  - sort: Sắp xếp nội dung của tệp.
+  - uniq: Loại bỏ các dòng lặp lại trong tệp.
+  - wc: Đếm số lượng dòng, từ, và ký tự trong tệp.
+  - man: Hiển thị tài liệu trợ giúp cho một lệnh.
+
+- Dưới đây là một số ví dụ về cách sử dụng các lệnh command cơ bản:
+  - Để thay đổi thư mục làm việc hiện tại sang thư mục /home/user, bạn có thể sử dụng lệnh cd /home/user.
+  - Để liệt kê tất cả các tệp và thư mục trong thư mục hiện tại, bạn có thể sử dụng lệnh ls.
+  - Để hiển thị đường dẫn thư mục làm việc hiện tại, bạn có thể sử dụng lệnh pwd.
+  - Để tạo thư mục mới có tên my_folder, bạn có thể sử dụng lệnh mkdir my_folder.
+  - Để xóa thư mục rỗng có tên my_folder, bạn có thể sử dụng lệnh rmdir my_folder.
+  - Để sao chép tệp file.txt sang thư mục /home/user, bạn có thể sử dụng lệnh cp file.txt /home/user.
+  - Để di chuyển tệp file.txt sang thư mục /home/user, bạn có thể sử dụng lệnh mv file.txt /home/user.
+  - Để xóa tệp file.txt, bạn có thể sử dụng lệnh rm file.txt.
+  - Để tạo tệp mới có tên new_file.txt, bạn có thể sử dụng lệnh touch new_file.txt.
+  - Để xem nội dung của tệp file.txt, bạn có thể sử dụng lệnh cat file.txt.
+  - Để xem đầu của tệp file.txt, bạn có thể sử dụng lệnh head file.txt.
+  - Để xem cuối của tệp file.txt, bạn có thể sử dụng lệnh tail file.txt.
+  - Để tìm kiếm văn bản hello world trong tệp file.txt, bạn có thể sử dụng lệnh grep "hello world" file.txt.
+  - Để sắp xếp nội dung của tệp file.txt theo thứ tự tăng dần, bạn có thể sử dụng lệnh sort file.txt.
+  - Để loại bỏ các dòng lặp lại trong tệp file.txt, bạn có thể sử dụng lệnh uniq file.txt.
+  - Để đếm số lượng dòng, từ, và ký tự trong tệp file.txt, bạn có thể sử dụng lệnh wc file.txt.
+  - Để hiển thị tài liệu trợ giúp cho lệnh cd, bạn có thể sử dụng lệnh man cd.
