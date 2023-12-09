@@ -55,4 +55,4 @@ choco install telegram -y
 choco install everything -y
 
 echo Done!
-pause
+Cmd /k
