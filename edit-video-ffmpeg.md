@@ -16,5 +16,5 @@ file '/path/to/clip2'
 - Run
 
 ```
-ffmpeg -f concat -safe 0 -i file.txt -c copy video.mpr
+ffmpeg -f concat -safe 0 -i file.txt -c copy video.mp4
 ```

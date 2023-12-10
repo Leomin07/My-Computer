@@ -1,0 +1,30 @@
+sudo apt-get update
+sudo apt-get upgrade -y
+# ---------------------------------------------------------------------------- #
+#                                    python                                    #
+# ---------------------------------------------------------------------------- #
+sudo apt install python3 -y
+sudo apt install python3-pip -y
+
+# ---------------------------------------------------------------------------- #
+#                                    nodejs                                    #
+# ---------------------------------------------------------------------------- #
+- https://github.com/nvm-sh/nvm
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+source ~/.bashrc
+nvm install v20.10.0
+
+# ---------------------------------------------------------------------------- #
+#                                     yarn                                     #
+# ---------------------------------------------------------------------------- #
+
+npm install --global yarn
+# ---------------------------------------------------------------------------- #
+#                                      git                                     #
+# ---------------------------------------------------------------------------- #
+sudo apt install git
+
+ssh-keygen -t ed25519 -C "tranminhsvp@gmail.com"
+git config --global user.name "MinhTD"
+git config --global user.name "tranminhsvp@gmail.com"
