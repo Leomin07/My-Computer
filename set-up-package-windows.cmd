@@ -1,7 +1,7 @@
 @echo off
 color e
 echo ----------------------------------------------------------------------------
-echo                                  MinhTD                                     
+echo                                  MinhTD
 echo ----------------------------------------------------------------------------
 
 cls
@@ -9,9 +9,8 @@ cls
 echo 1.install_choco
 echo 2.update_choco
 echo 3.install_wsl
-echo 4.install_dev
-echo 5.install_normal
-echo 6.Quit
+echo 4.install_normal
+echo 5.Quit
 echo.
 
 choice /C 123456 /M "Enter your choice:"
@@ -26,7 +25,7 @@ IF ERRORLEVEL 1 GOTO install_choco
 
 :install_choco
 REM ----------------------------------------------------------------------------
-REM                            Install chocolatey                               
+REM                            Install chocolatey
 REM ----------------------------------------------------------------------------
 powershell Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 rem RefreshEnv
@@ -43,51 +42,43 @@ pause
 goto begin
 
 
-:install_dev
+:install_normal
 REM ----------------------------------------------------------------------------
-REM                                 Developer                                   
+REM                                  Normal
 REM ----------------------------------------------------------------------------
-
-choco install git -y
+choco install jetbrainsmono -y
 choco install nodejs-lts -y
 choco install yarn -y
 choco install python -y
-choco install docker-desktop -y
-choco install dbeaver -y
-choco install mongodb-compass -y
-choco install postman -y
-choco install webstorm -y
+choco install git -y
 choco install vscode -y
-echo Done!f
-pause
-goto begin
-
-:install_normal
-REM ----------------------------------------------------------------------------
-REM                                  Normal                                     
-REM ----------------------------------------------------------------------------
-
 choco install 7zip -y
 choco install winrar -y
-choco install opera-gx -y
+choco install brave -y
 choco install potplayer -y
 choco install powertoys -y
 choco install internet-download-manager -y
-choco install cheatengine --version=7.3 -y
-choco install steam -y
 choco install sharpkeys -y
 choco install chocolateygui -y
 choco install telegram -y
 choco install everything -y
-
+choco install flow-launcher -y
+choco install docker-desktop -y
+choco install dbeaver -y
+choco install mongodb-compass -y
+choco install postman -y
 echo Done!
 pause
 goto begin
 
+REM ----------------------------------------------------------------------------
+REM                                    wsl                                      
+REM ----------------------------------------------------------------------------
 :install_wsl
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 wsl --install
 rem set wsl version 2
-wsl --set-version Ubuntu
+wsl --set-version ubuntu 2
 
 echo Done!
 pause
