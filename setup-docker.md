@@ -20,3 +20,7 @@ processors=2
 swap=2GB
 
 ```
+
+```
+Get-Service LxssManager | Restart-Service
+```
