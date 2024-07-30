@@ -16,9 +16,8 @@ echo.
 choice /C 123456 /M "Enter your choice:"
 
 :: Note - list ERRORLEVELS in decreasing order
-IF ERRORLEVEL 6 GOTO exits
-IF ERRORLEVEL 5 GOTO install_normal
-IF ERRORLEVEL 4 GOTO install_dev
+IF ERRORLEVEL 5 GOTO exits
+IF ERRORLEVEL 4 GOTO install_normal
 IF ERRORLEVEL 3 GOTO install_wsl
 IF ERRORLEVEL 2 GOTO update_choco
 IF ERRORLEVEL 1 GOTO install_choco
@@ -57,6 +56,7 @@ choco install winrar -y
 choco install brave -y
 choco install potplayer -y
 choco install powertoys -y
+choco install microsoft-windows-terminal -y
 choco install internet-download-manager -y
 choco install sharpkeys -y
 choco install chocolateygui -y
