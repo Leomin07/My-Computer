@@ -67,6 +67,7 @@ choco install docker-desktop -y
 choco install dbeaver -y
 choco install mongodb-compass -y
 choco install postman -y
+choco install mpv -y
 echo Done!
 pause
 goto begin
