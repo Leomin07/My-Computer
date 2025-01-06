@@ -56,6 +56,7 @@ REM                                  game
 REM ----------------------------------------------------------------------------
 
 :game
+choco install python -y
 choco install jetbrainsmono -y
 choco install googlechrome -y
 choco install vscode -y
